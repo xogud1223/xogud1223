@@ -69,7 +69,7 @@ resource "aws_security_group" "allow-mgt-sg" {
 resource "aws_security_group" "allow-pa-traffic-sg" {
   name        = "allow-pa-traffic-sg"
   description = "Allow pa-sg inbound traffic"
-  vpc_id      = "vpc-048f5db31d2361a84"
+  vpc_id      = "vpc-0f1babcfa46a4b91e"
 
   ingress {
     description      = "allow-pa-traffic-sg"
