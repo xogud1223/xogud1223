@@ -256,4 +256,7 @@ resource "aws_instance" "az2_paloalto" {
     Name = "Paloalto_AZ2"
   }
 
+   metadata_options {
+     http_tokens = "required"
+   }
 }
